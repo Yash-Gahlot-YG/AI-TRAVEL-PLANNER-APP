@@ -50,6 +50,11 @@ yarn-error.*
 .env
 .env*.local
 
+# Android local build folders
+android/.gradle/
+android/build/
+android/local.properties
+
 # typescript
 *.tsbuildinfo
 
