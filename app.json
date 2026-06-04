@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "SmartTrip AI",
-    "slug": "traveling",
+    "slug": "smarttrip-ai",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/logoicon2.jpg",
@@ -16,7 +16,7 @@
       "EXPO_GOOGLE_MAP_KEY": "your-google-api-key-here",
       "RAPIDAPI_KEY": "your-rapidapi-key-here",
       "eas": {
-        "projectId": "20cee84b-97d3-47a4-ad65-8e8d8ba7b8c8"
+        "projectId": "c85a6fba-6ac0-41eb-9085-ba819b3d741b"
       }
     },
     "ios": {
@@ -42,6 +42,6 @@
         }
       ]
     ],
-    "owner": "yash-gahlot"
+    "owner": "yashh-gahlot"
   }
 }
