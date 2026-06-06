@@ -9,5 +9,5 @@ export default function Index() {
     <View style={{ flex: 1 }}>
       {user ? <Redirect href="/(tabs)/mytrip" /> : <Login />}
     </View>
-  );//yash 
+  );//yashgahlot
 }
