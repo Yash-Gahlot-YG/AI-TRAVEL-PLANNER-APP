@@ -32,7 +32,10 @@ const SignUp = () => {
       return;
     }
     if (password.length < 6) {
-      ToastAndroid.show("Password must be at least 6 characters", ToastAndroid.LONG);
+      ToastAndroid.show(
+        "Password must be at least 6 characters",
+        ToastAndroid.LONG,
+      );
       return;
     }
     createUserWithEmailAndPassword(auth, trimmedEmail, password)
@@ -46,11 +49,17 @@ const SignUp = () => {
       .catch((error) => {
         console.log(error.message, error.code);
         if (error.code === "auth/email-already-in-use") {
-          ToastAndroid.show("Email already registered. Sign in instead.", ToastAndroid.LONG);
+          ToastAndroid.show(
+            "Email already registered. Sign in instead.",
+            ToastAndroid.LONG,
+          );
         } else if (error.code === "auth/invalid-email") {
           ToastAndroid.show("Invalid email address", ToastAndroid.LONG);
         } else if (error.code === "auth/weak-password") {
-          ToastAndroid.show("Password must be at least 6 characters", ToastAndroid.LONG);
+          ToastAndroid.show(
+            "Password must be at least 6 characters",
+            ToastAndroid.LONG,
+          );
         } else {
           ToastAndroid.show(error.message, ToastAndroid.LONG);
         }
@@ -78,7 +87,7 @@ const SignUp = () => {
       </Text>
 
       {/* User FullName */}
-      <View style={{ marginTop: 50 }}>
+      <View style={{ marginTop: 20 }}>
         <Text style={{ fontFamily: "outfit" }}>Full Name</Text>
         <TextInput
           placeholder="Enter Full Name"

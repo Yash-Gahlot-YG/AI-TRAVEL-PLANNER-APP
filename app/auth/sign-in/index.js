@@ -32,7 +32,7 @@ const SignIn = () => {
   const handlePressIn = () => {
     Animated.spring(scaleValue, {
       toValue: 1.5,
-      friction: 2, // Lower value for more bounciness
+      friction: 5, // Lower value for more bounciness
       tension: 100,
       useNativeDriver: true,
     }).start();
@@ -81,7 +81,7 @@ const SignIn = () => {
         if (errorCode === "auth/invalid-credential") {
           ToastAndroid.show(
             "Wrong email or password. Create a new account for SmartTrip-AI.",
-            ToastAndroid.LONG
+            ToastAndroid.LONG,
           );
         } else {
           ToastAndroid.show(errorMessage, ToastAndroid.LONG);
