@@ -1,1 +1,5 @@
-Apk Download link :- https://drive.google.com/file/d/1QWkrPjUgh0EJMZX18tEtbUrzkTe7KAev/view?usp=drive_link
+📥 Download APK
+
+➡️ **Latest Release**
+
+Apk Download link :- https://github.com/Yash-Gahlot-YG/AI-TRAVEL-PLANNER-APP/releases/download/v1.0.0/SmartTrip.AI.5.apk
